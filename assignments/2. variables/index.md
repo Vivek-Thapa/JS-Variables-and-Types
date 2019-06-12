@@ -1,6 +1,7 @@
 1. In code below "Mark" is a string.  What is name?
 ```js
 var name = "Mark";
+name is the name of the variable.
 ```
 
 2. Find the error if any
@@ -11,25 +12,27 @@ var name = "Mark";
 3. Write `Right or Wrong` next to the code below.
 
 ```js
-  "Hello World"
+  "Hello World" right.
   'Hello World"
+  wrong
   "Hello World'
-  'Hello World'
+    wrong
+  'Hello World' right.
 ```
 
 ## Write `VALID` and `INVALID` infront of the variable name defined below
 ```js
-var man;
-var 1girl;
-var woman3;
-var -girl;
-var blackDog;
-var 42;
-var $42;
-var userName;
-var x, y, z;
-var x = 5, y = 6, z = 7;
-var x = 5 + 10 + 2;
+var man; valid
+var 1girl; invalid
+var woman3; valid
+var -girl; invalid
+var blackDog; valid
+var 42; invalid
+var $42; valid
+var userName; valid
+var x, y, z; valid
+var x = 5, y = 6, z = 7; valid
+var x = 5 + 10 + 2; valid
 ```
 
 ## Basic Operations
@@ -40,12 +43,19 @@ Mathematical Operations:
 var amount = 2080;
 // Mathematical Operations:
 // Define a new variable and store the value that is 80 less then the value of amount.
+var lessAmount = amount-80
 
 // Define a new variable and store the value that is 200 more then the value of amount.
 
+var moreAmount = amount+200
+
 // Define a new variable and store the value that is 4 times the value of amount.
 
+
+
 // Define a new variable and store the reminder when the value of amount is  divided by 21.
+
+var remAmount = amount%21
 ```
 Logical Operation
 ```js
