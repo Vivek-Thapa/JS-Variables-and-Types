@@ -62,12 +62,45 @@ Logical Operation
 var johnAge = 45;
 var markAge = 35;
 
-// Check who is older eithe John or Mark
+// Check who is older either John or Mark
+var jhonAge = 45;
+var markAge = 35;
+var result=(jhonAge >markAge);
+alert (`${result}  jhon is older`);
+
 // Check who is younger
+var jhonAge = 45;
+var markAge = 35;
+var result =(jhonAge>markAge);
+alert (`${result}  mark is younger`);
 // Check if their age is equal
+var jhonAge = 45;
+var markAge = 35;
+var result =(jhonAge!==markAge);
+alert (`${result}  the age is not equal`);
+
 // Create a new variable and assign the age of john to new variable.
+
+var newAge = jhonAge;
+var result =(newAge=jhonAge);
+alert (`${result}  new age is the age of jhon`);
 // Check if john is equal to or greater then mark.
+var jhonAge = 45;
+var markAge = 35;
+var result =(jhonAge>=markAge);
+alert (`${result}  the age of jhon is not equal but greater than that of mark`);
+
 // Check if john is less then or equal to mark.
+var jhonAge = 45;
+var markAge = 35;
+var result =(jhonAge>=markAge);
+alert (`${result}  the age of jhon is neither less nor equal to that of mark`);
 
 // Calculate the average age of john and mark and assign to a new variable.
+var jhonAge = 45;
+var markAge = 35;
+var result =(jhonAge+markAge);
+alert (`${result/2}  the average age`);
+
+
 ```
